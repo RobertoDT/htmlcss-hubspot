@@ -114,6 +114,7 @@ body{
 .banner h1{
   color: #33475C;
   font-size: 50px;
+  font-weight: 800;
   margin-bottom: 30px;
 }
 
@@ -143,4 +144,31 @@ body{
   height: 100px;
   background-color: #7BDED2;
   border-bottom: 5px solid #33475C;
+  margin-bottom: 70px;
+}
+
+.wrapper-cubo{
+  text-align: center;
+}
+
+.wrapper-testo {
+  width: 900px;
+  margin: auto;
+}
+
+.wrapper-cubo img{
+  width: 300px;
+}
+
+.wrapper-testo h1{
+  color: #33475C;
+  font-size: 50px;
+  font-weight: 800;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.wrapper-testo p{
+  text-align: center;
+  line-height: 30px;
 }
