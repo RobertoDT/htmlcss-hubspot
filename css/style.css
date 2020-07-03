@@ -76,3 +76,23 @@ body{
   display: table;
   clear: both;
 }
+
+.nav-bottom{
+  position: relative;
+}
+
+.nav-bottom img{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.nav-bottom-lista{
+  float: right;
+}
+
+.nav-bottom-lista li{
+  display: inline-block;
+  line-height: 100px;
+  padding: 0 15px;
+}
