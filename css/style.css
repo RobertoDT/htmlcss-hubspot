@@ -119,6 +119,7 @@ body{
 }
 
 .banner p{
+  font-size: 20px;
   margin-bottom: 30px;
 }
 
@@ -133,6 +134,7 @@ body{
 .banner p:last-child{
   font-size: 13px;
   margin-top: 30px;
+  display: block;
 }
 
 .header{
@@ -151,7 +153,6 @@ body{
 
 .macro{
   background-color: #F5F8FA;
-  padding-bottom: 80px;
 }
 
 .wrapper-cubo{
@@ -247,6 +248,7 @@ body{
 .wrapper-3-col{
   width: 80%;
   margin: auto;
+  padding-bottom: 70px;
 }
 
 .main-col{
@@ -474,4 +476,43 @@ body{
   content: "";
   display: block;
   clear: both;
+}
+
+/* uguali ai vecchi */
+.wrapper3{
+  margin-top: 70px;
+  width: 80%;
+  margin: auto;
+  position: relative;
+}
+
+.banner2{
+  position: absolute;
+  top: 10%;
+  width: 30%;
+}
+/* /uguali ai vecchi */
+
+.banner2 h2{
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+.banner2 p{
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.banner2 p:last-child{
+  font-size: 13px;
+  margin-top: 30px;
+  display: block;
+}
+
+.pre-col-right img{
+  width: 300px;
+  float: right;
+  position: absolute;
+  top: 10%;
+  right: 10%;
 }
