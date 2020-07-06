@@ -181,7 +181,7 @@ body{
 
 .wrapper-crm{
   width: 80%;
-  margin: auto;
+  margin: 30px auto;
   background-color: white;
   border-radius: 5px;
   box-shadow: 0px 0px 10px 1px rgba(209,209,209,1);
@@ -241,4 +241,83 @@ body{
   content: "";
   display: block;
   clear: both;
+}
+
+.wrapper-3-col{
+  width: 80%;
+  margin: auto;
+}
+
+.main-col{
+  width: 30%;
+  text-align: center;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px 1px rgba(209,209,209,1);
+  float: left;
+}
+
+.center{
+  margin: 0 5%;
+}
+
+.right{
+  float: right;
+}
+
+.wrapper-3-col::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.main-col img{
+  margin: 30px 0;
+}
+
+.main-col h2{
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.main-col > p{
+  padding: 0 100px;
+  margin-bottom: 30px;
+}
+
+.main-col hr{
+  margin: 0 40px;
+}
+
+.main-col h3{
+  margin: 30px 0;
+  font-size: 25px;
+}
+
+.main-col button{
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.col-3-list{
+  width: 70%;
+  margin: auto;
+  text-align: left;
+  list-style: none;
+}
+
+.col-3-list li i,p{
+  display: inline-block;
+}
+
+.left img{
+  width: 145px;
+}
+
+.right img{
+  width: 130px;
+}
+
+.center img{
+  width: 180px;
 }
