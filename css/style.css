@@ -113,7 +113,7 @@ body{
 }
 
 .banner h1{
-  font-size: 50px;
+  font-size: 60px;
   font-weight: 800;
   margin-bottom: 30px;
 }
@@ -147,11 +147,11 @@ body{
   height: 100px;
   background-color: #7BDED2;
   border-bottom: 5px solid #33475C;
-  margin-bottom: 70px;
 }
 
 .macro{
   background-color: #F5F8FA;
+  padding-bottom: 80px;
 }
 
 .wrapper-cubo{
@@ -165,6 +165,7 @@ body{
 
 .wrapper-cubo img{
   width: 300px;
+  margin-top: 50px;
 }
 
 .wrapper-testo h1{
@@ -320,4 +321,79 @@ body{
 
 .center img{
   width: 180px;
+}
+
+/* tabella gradiente */
+.tab{
+  background-image: linear-gradient(to right, #00A5BD , #00BCA5);
+}
+
+.wrapper-tab{
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  color: white;
+}
+
+.wrapper-tab > h2{
+  font-size: 50px;
+  padding: 50px 200px;
+}
+
+.wrapper-tab p{
+  font-size: 20px;
+  padding: 0 200px;
+}
+
+.wrapper-tab-list{
+  height: 500px;
+  margin: 50px 0;
+}
+
+.tab-list{
+  list-style: none;
+}
+
+.tab-list li{
+  width: 20%;
+  display: inline-block;
+  margin-bottom: 50px;
+}
+
+.tab-list p{
+  text-align: center;
+}
+
+.wrapper-loghi{
+  width: 80%;
+  margin: auto;
+}
+
+.loghi-col-left{
+  width: 30%;
+  height: 300px;
+  background-color: green;
+  float:left;
+}
+
+.loghi-col-left h2{
+  font-size: 50px;
+  margin: 30px 0;
+}
+
+.loghi-col-right{
+  width: 70%;
+  height: 300px;
+  background-color: red;
+  float: left;
+}
+
+.loghi-col-right img{
+  width: 100px;
+}
+
+.wrapper-loghi::after{
+  content: "";
+  display: block;
+  clear: both;
 }
