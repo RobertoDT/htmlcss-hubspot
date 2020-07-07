@@ -487,6 +487,7 @@ body{
 .loghi-col-right li{
   display: inline-block;
   margin: 15px 40px;
+  width: 13%;
 }
 
 .loghi-col-right img{
