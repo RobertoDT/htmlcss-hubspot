@@ -35,6 +35,10 @@ body{
   float: left;
 }
 
+.sx i:first-child{
+  font-size: 20px;
+}
+
 .dx{
   float: right;
 }
@@ -478,24 +482,31 @@ body{
   clear: both;
 }
 
-/* uguali ai vecchi */
+.prefooter{
+  margin-bottom: 30px;
+}
+
 .wrapper3{
-  margin-top: 70px;
+  margin: 70px;
   width: 80%;
   margin: auto;
   position: relative;
 }
 
-.banner2{
-  position: absolute;
-  top: 10%;
-  width: 30%;
+.wrapper3::after{
+  content: "";
+  display: block;
+  clear: both;
 }
-/* /uguali ai vecchi */
+
+.banner2{
+  width: 30%;
+  float: left;
+}
 
 .banner2 h2{
   font-size: 40px;
-  margin-bottom: 30px;
+  margin: 30px 0;
 }
 
 .banner2 p{
@@ -509,10 +520,55 @@ body{
   display: block;
 }
 
+.pre-col-right{
+  width: 70%;
+  float: left;
+  text-align: right;
+}
+
 .pre-col-right img{
   width: 300px;
-  float: right;
-  position: absolute;
-  top: 10%;
-  right: 10%;
+  text-align: right;
+}
+
+footer{
+  height: 700px;
+  background-color: #33475C;
+}
+
+.wrapper4{
+  width: 80%;
+  margin: auto;
+}
+
+.col-foot{
+  float:left;
+  color: white;
+  font-size: 20px;
+  width: 25%;
+}
+
+.col-foot ul{
+  list-style: none;
+}
+
+.col-foot h3{
+  margin: 20px 0;
+}
+
+.col-foot li{
+  line-height: 35px;
+}
+
+.icon > i{
+  width: 8%;
+}
+
+.col-foot button{
+  border-radius: 5px;
+  background-color: white;
+  color: #33475C;
+  border: none;
+  padding: 10px 20px;
+  margin: 10px 0;
 }
