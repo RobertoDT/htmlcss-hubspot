@@ -63,7 +63,7 @@ body{
 }
 
 .fa-search{
-  color: blue;
+  color: #00A48D;
 }
 
 .btn{
@@ -297,6 +297,7 @@ body{
 .main-col > p{
   padding: 0 100px;
   margin-bottom: 30px;
+  line-height: 30px;
 }
 
 .main-col hr{
