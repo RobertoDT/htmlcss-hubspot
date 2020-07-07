@@ -13,6 +13,9 @@ body{
   width: 100%;
   background-color: #F5F8FA;
   border-bottom: 2px solid black;
+  position: fixed;
+  top: 0;
+  z-index: 9999;
 }
 
 .wrapper{
@@ -90,7 +93,7 @@ body{
 }
 
 .nav-bottom{
-  position: relative;
+  margin-top: 100px;
 }
 
 .nav-bottom img{
@@ -619,10 +622,6 @@ footer{
   color: white;
   font-size: 20px;
   margin: 30px 0 0 30px;
-}
-
-.copi{
-  margin-bottom: 50px;
 }
 
 .copi::after{
