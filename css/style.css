@@ -74,10 +74,26 @@ body{
   padding: 10px;
 }
 
-.btn-white{
+.dx .white-btn{
+  border-style: solid;
+  border-radius: 5px;
   border-color: #FE775A;
   color: #FE775A;
   background-color: white;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 5px 10px;
+}
+
+.dx .btn{
+  border-style: solid;
+  border-radius: 5px;
+  text-decoration: none;
+  background-color: #FE775A;
+  border: none;
+  color: white;
+  font-size: 16px;
+  padding: 7px 10px;
 }
 
 .btn-orange{
@@ -115,7 +131,7 @@ body{
 }
 
 .wrapper2{
-  height: 900px;
+  height: 650px; /*avevo 900px*/
   width: 80%;
   margin: auto;
   position: relative;
@@ -253,6 +269,12 @@ body{
   font-size: 20px;
 }
 
+.col-crm-right > hr{
+  width: 500px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
 .fa-check-circle{
   color: #FE775A;
 }
@@ -271,6 +293,7 @@ body{
 
 .main-col{
   width: 30%;
+  height: 750px;
   text-align: center;
   background-color: white;
   border-radius: 5px;
@@ -388,7 +411,7 @@ body{
 }
 
 .box h2{
-  font-size: 35px;
+  font-size: 50px;
   margin-bottom: 15px;
 }
 
@@ -492,6 +515,7 @@ body{
 
 .loghi-col-right img{
   width: 150px;
+  vertical-align: middle;
 }
 
 .wrapper-loghi::after{
