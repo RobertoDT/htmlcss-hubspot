@@ -261,6 +261,7 @@ body{
 
 .col-crm-right h3{
   font-size: 25px;
+  display: inline-block;
 }
 
 .col-crm-right p{
@@ -269,10 +270,12 @@ body{
   font-size: 20px;
 }
 
-.col-crm-right > hr{
-  width: 500px;
+.col-crm-right hr{
+  width: 400px;
   display: inline-block;
   vertical-align: middle;
+  margin-bottom: 5px;
+  margin-left: 30px;
 }
 
 .fa-check-circle{
